@@ -1,16 +1,50 @@
-# flutter_application_1
+# Contador de Clicks en Flutter
 
-A new Flutter project.
+Esta es una aplicación móvil simple desarrollada con **Flutter** que permite incrementar, decrementar y reiniciar un contador con botones interactivos.
 
-## Getting Started
+## 📱 Captura de Pantalla
 
-This project is a starting point for a Flutter application.
+![alt text](image.png)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Incrementar el contador con el botón "+"
+- Decrementar el contador con el botón "-"
+- Reiniciar el contador a 0 con el botón "Reset"
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologías utilizadas
+
+- Flutter
+- Dart
+
+## 📁 Estructura del Proyecto
+
+flutter_application_1/
+├── android/
+├── build/
+├── ios/
+├── lib/ # Código principal en Dart
+│ └── main.dart # Punto de entrada de la aplicación
+├── linux/
+├── macos/
+├── test/
+├── web/
+├── windows/
+├── .dart_tool/
+├── .idea/
+├── .vscode/
+├── .gitignore
+├── image.png
+├── pubspec.yaml
+├── pubspec.lock
+└── README.md
+
+
+## ▶️ Cómo ejecutar
+
+1. Asegúrate de tener Flutter instalado y configurado.
+2. Inicia un emulador o conecta un dispositivo físico.
+3. Abre una terminal en la raíz del proyecto y ejecuta:
+
+```bash
+flutter run
